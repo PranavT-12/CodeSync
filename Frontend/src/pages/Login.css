@@ -1,0 +1,136 @@
+.login-page {
+    min-height: 100vh;
+    padding: 24px;
+    background: #f7f9ff;
+    color: #f5f7ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-family: Arial, sans-serif;
+}
+
+.login-back {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    background: transparent;
+    color: #000;
+    border: 1px solid #303953;
+    padding: 10px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.login-card {
+    height: 630px;
+    width: 100%;
+    max-width: 420px;
+    padding: 32px;
+    background: #f7f9ff;
+    border: 1px solid #29334e;
+    border-radius: 18px;
+    box-shadow: 0 20px 60px #0005;
+}
+
+.login-card h1 {
+    color: #000;
+    text-align: center;
+    margin: 0 0 30px;
+    font-size: 30px;
+}
+
+.login-card h1 span {
+    color: #4567f5;
+}
+
+.login-card h2 {
+    color: #000;
+    margin-bottom: 8px;
+    font-size: 25px;
+}
+
+.login-subtitle {
+    color: #17223b;
+    margin-bottom: 26px;
+    line-height: 1.5;
+}
+
+.login-field {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 18px;
+}
+
+.login-field label {
+    font-size: 14px;
+    color: #000;
+}
+
+.login-field input {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #35415e;
+    border-radius: 9px;
+    background: #f7f9ff;
+    color: eef2ff;
+    outline: none;
+}
+
+.login-field input:focus {
+    border-color: #7188ff;
+}
+
+.login-submit {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 9px;
+    background: #647cff;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 6px;
+}
+
+.login-submit:hover {
+    background: #4567f5;
+}
+
+.login-message {
+    color: #ff9eaa;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.login-switch {
+    text-align: center;
+    color: #667085;
+    margin-top: 22px;
+    font-size: 14px;
+}
+
+.login-switch button {
+    color: #4567f5;
+    border: none;
+    background: transparent;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+@media (max-width: 480px) {
+    .login-page {
+        padding: 80px 16px 24px;
+    }
+
+    .login-card {
+        padding: 24px 20px;
+    }
+
+    .login-back {
+        top: 18px;
+        left: 16px;
+    }
+}

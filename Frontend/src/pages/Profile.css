@@ -1,0 +1,134 @@
+
+.profile-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 16px;
+    background: #f4f7fb;
+    font-family: Arial, sans-serif;
+}
+
+.profile-card {
+    width: 100%;
+    max-width: 480px;
+    padding: 32px;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 20px;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
+}
+
+.profile-back-btn {
+    border: none;
+    background: transparent;
+    color: #4b5563;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 0;
+}
+
+.profile-back-btn:hover {
+    text-decoration: underline;
+}
+
+.profile-header {
+    text-align: center;
+    margin: 28px 0;
+}
+
+.profile-avatar {
+    width: 82px;
+    height: 82px;
+    margin: 0 auto 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #dbeafe;
+    color: #1d4ed8;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.profile-header h1 {
+    margin: 0 0 8px;
+    color: #111827;
+    font-size: 28px;
+}
+
+.profile-subtitle {
+    margin: 0;
+    color: #6b7280;
+    font-size: 14px;
+}
+
+.profile-details {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.profile-detail {
+    padding: 14px 16px;
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+}
+
+.profile-detail label {
+    display: block;
+    margin-bottom: 7px;
+    color: #6b7280;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.profile-detail p {
+    margin: 0;
+    color: #111827;
+    font-size: 15px;
+    overflow-wrap: anywhere;
+}
+
+.profile-primary-btn,
+.profile-logout-btn {
+    width: 100%;
+    padding: 13px;
+    margin-top: 22px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.profile-primary-btn {
+    background: #2563eb;
+    color: #ffffff;
+}
+
+.profile-primary-btn:hover {
+    background: #1d4ed8;
+}
+
+.profile-logout-btn {
+    background: #fee2e2;
+    color: #b91c1c;
+}
+
+.profile-logout-btn:hover {
+    background: #fecaca;
+}
+
+@media (max-width: 480px) {
+    .profile-card {
+        padding: 24px 18px;
+    }
+
+    .profile-header h1 {
+        font-size: 24px;
+    }
+}
